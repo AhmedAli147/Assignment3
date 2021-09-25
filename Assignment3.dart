@@ -37,7 +37,26 @@ void main (){
   
   lista.removeWhere((e) => listb.contains(e));
   print(lista);
-  	
+
+//   3. Let’s say you are given a list saved in a variable:
+// Consider a = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100].
+// Write a code that takes this list and makes a new list that has only the
+// even elements of this list in it.
+   
+// first ak list banai a name ki.
+// for in ka loop use kia bola var i ko list a me chalao
+// then curly brackets my condition lagai
+// ky if agr i%2==0 ho tb list a my sy i ko print krdo
+// yani srf un element ko print krdo jinka remainder 2 ka answer zero ay 
+  List a = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100];
+   
+   for(var i in a){
+     if(i%2==0){
+       print(i);
+       
+     }
+     
+}  	
   
 
 
