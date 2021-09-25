@@ -56,7 +56,28 @@ void main (){
        
      }
      
-}  	
+}  
+
+// 4. Ask the user for a number and determine whether the number is
+// prime or not.s?
+   
+   
+//    prime number jo apny table ky ilawa kisi table me nh ata
+//    condition dedi agr user input me jo number hy
+//    uska remainder 2 (%2) equal to 1 ho wo prime no hua 
+//    then print its a prime no
+   
+   var user = (3);
+  
+   
+   if (user%2==1){
+     print("Its a prime number");
+    
+   }
+   
+   else {
+     print("Its not a prime number");
+   }	
   
 
 
