@@ -38,6 +38,23 @@ void main (){
   lista.removeWhere((e) => listb.contains(e));
   print(lista);
 
+// 8. The Temperature Converter: It’s hot out! Let’s make a converter
+// based on the steps here.
+// a. Store a Celsius temperature into a variable.
+// b. Convert it to Fahrenheit & output “NNoC is NNoF”.
+// c. Now store a Fahrenheit temperature into a variable.
+// d. Convert it to Celsius & output “NNoF is NNoC”.
+   
+// Conversion C to F
+//    for example 10C to convert into F
+//    (10X2) +30=50F
+   
+  var a = (10);
+  print("10oc = ${a*2+30}oF");
+   
+   var b =(50);
+   print("50oF = ${(b-30)/2}oC");
+
 //   3. Let’s say you are given a list saved in a variable:
 // Consider a = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100].
 // Write a code that takes this list and makes a new list that has only the
@@ -103,7 +120,7 @@ Q6/ Write a program to print items of the following array using for loop:
    
 //    Question: ye hy ky 1 sy 100 tk ki range me sy wo no print kro
 //    jo 5 ky multiples hon yani 5 sy divisible yani 5 sy divide hony ky
-//    bad unka remainder 0 bachy srf wo number print krwao.
+//     bad unka remainder 0 bachy srf wo number print krwao.
    
 //    Answer: i ko initialize kia 1 value sy or condition di ky 100 ho ya 
 //    100 sy kam  last m increment karadi
