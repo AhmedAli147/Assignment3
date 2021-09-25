@@ -37,7 +37,7 @@ void main (){
   
   lista.removeWhere((e) => listb.contains(e));
   print(lista);
-  
+  	
   
 
 
