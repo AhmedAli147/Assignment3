@@ -21,6 +21,28 @@ void main (){
   
   var list4 =list3.toSet().toList();
   print(list4);
+
+  
+// 2. How to get difference of lists in Flutter/Dart?
+// Problem
+// Consider you have two lists [1,2,3,4,5,6,7] and [3,5,6,7,9,10]. How
+// would you get the difference as output? eg. [1, 2, 4]
+  
+//   lista m sy wo element  remove krdo jo ky listb contains krti hy
+//   to isny difference bata dia 
+//   lista me sy - hua to lista jo bachy ga wo likhengy
+  
+  List<dynamic> lista = [1,2,3,4,5,6,7]; 
+  List<dynamic> listb = [3,5,6,7,9,10];
+  
+  lista.removeWhere((e) => listb.contains(e));
+  print(lista);
+  
+  
+
+
+
+
   
   
 }
