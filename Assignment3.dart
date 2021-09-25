@@ -86,7 +86,38 @@ void main (){
    
    for (var b = 1; b<=15; b++){
      print("${a} X ${b} = ${a*b}");
-}	
+}
+
+Q6/ Write a program to print items of the following array using for loop:
+// fruits = [“apple”, “banana”, “mango”, “orange” , “strawberry”].
+   
+  List fruits = ["apple", "banana", "mango", "orange" , "strawberry"];
+   for  (var i in fruits){
+     print(i);
+     
+   }  	
+
+ void main (){
+    
+// 7. Write a program to print multiples of 5 ranging 1 to 100.
+   
+//    Question: ye hy ky 1 sy 100 tk ki range me sy wo no print kro
+//    jo 5 ky multiples hon yani 5 sy divisible yani 5 sy divide hony ky
+//    bad unka remainder 0 bachy srf wo number print krwao.
+   
+//    Answer: i ko initialize kia 1 value sy or condition di ky 100 ho ya 
+//    100 sy kam  last m increment karadi
+   
+//    then if ki condition lagai or bataya 1 sy 100 tk ki range me sy
+//    wo number print krdo jinka raminder 5 equal to 0 ho.
+   
+   for(var i = 1; i<=100; i++){
+     if (i%5==0){
+       print(i);
+       
+     }
+     
+   }
   
 
 
