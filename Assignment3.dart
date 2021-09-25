@@ -77,7 +77,16 @@ void main (){
    
    else {
      print("Its not a prime number");
-   }	
+   }
+
+// 5. Write a program to print multiplication table of 7 length 15.
+   
+   var a = (7);
+  
+   
+   for (var b = 1; b<=15; b++){
+     print("${a} X ${b} = ${a*b}");
+}	
   
 
 
