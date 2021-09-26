@@ -185,7 +185,34 @@ Q6/ Write a program to print items of the following array using for loop:
    
    
    
+  // 10. Write a program that takes a character (I. e. string of length 1)
+// and returns true if it is a vowel, false otherwise.
    
+   String char = ("i");
+   
+   if (char=="a"){
+     print("True");
+   }
+   
+   else if (char=="e"){
+     print("True");
+   }
+   
+   else if (char=="i"){
+     print("True");
+   }
+   
+   else if (char=="o"){
+   print("True");
+     }
+   
+   else if (char=="u"){
+     print("True");
+   }
+   
+   else{
+     print("False");
+   } 
    
    
    
