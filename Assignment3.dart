@@ -135,6 +135,61 @@ Q6/ Write a program to print items of the following array using for loop:
    
    var b =(50);
    print("50oF = ${(b-30)/2}oC");
+
+
+
+
+// 9. Write a program to create a calculator for +, -, *, / & % using if
+// statements. Take the following input:
+// a. First number Second number
+// b. Operation (+, -, *, /, %)
+// Compute & show the calculated result to user.
+  
+   var f1 = (5);
+   var f2 = (2);
+   
+   var select = (f1%f2);
+   var add = (f1+f2);
+   var sub = (f1-f2);
+   var multi = (f1*f2);
+   var div = (f1/f2);
+   var rem = (f1%f2);
+  
+   
+   if (select==add){
+     print(add);   
+   }
+   
+     else if (select==sub){
+       print(sub);
+       
+     }
+   
+    else if (select==multi){
+       print(multi);
+       
+     }
+   
+    else if (select==div){
+       print(div);
+      
+    }
+   
+    else if (select==rem){
+       print(rem);
+       
+     }
+   
+   else if(select==(0))
+     print(0);
+   
+   
+   
+   
+   
+   
+   
+   
   
 
 
